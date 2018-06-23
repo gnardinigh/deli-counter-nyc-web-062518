@@ -13,6 +13,7 @@ def line(katz_deli)
         katz_line+="#{index+1}. #{person}"
       end
     end
+    puts katz_line
   end
 end
 
