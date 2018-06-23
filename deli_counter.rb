@@ -15,7 +15,6 @@ def line(katz_deli)
     line_statement+="#{counter+1}. #{katz_deli[counter]}"
     puts line_statement
   end
-  
 end
 
 
