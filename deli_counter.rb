@@ -12,6 +12,7 @@ def line(katz_deli)
         katz_line+="#{index+1}. #{person} "
       else
         katz_line+="#{index+1}. #{person}"
+      end
     end
   end
 end
