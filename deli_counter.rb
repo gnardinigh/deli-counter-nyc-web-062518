@@ -6,14 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     
   else
-    line_statement = "The line is currently: "
-    counter=0
-    while counter < katz_deli.size-1
-      line_statement+="#{counter+1}. #{katz_deli[counter]} "
-      counter++
-    end
-    line_statement+="#{counter+1}. #{katz_deli[counter]}"
-    puts line_statement
+    
   end
 end
 
