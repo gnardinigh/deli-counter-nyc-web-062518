@@ -4,7 +4,6 @@ def line(katz_deli)
   
   if katz_deli.size<1
     puts "The line is currently empty."
-    
   else
     katz_line = "The line is currently: "
     katz_deli.each_with_index do |person,index|
