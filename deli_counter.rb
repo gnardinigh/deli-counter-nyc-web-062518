@@ -7,6 +7,12 @@ def line(katz_deli)
     
   else
     katz_line = "The line is currently: "
+    katz_deli.each_with_index do |person,index|
+      if index<katz_deli.size-1
+        katz_line+="#{index+1}. #{person} "
+      else
+        katz_line+="#{index+1}. #{person}"
+    end
   end
 end
 
